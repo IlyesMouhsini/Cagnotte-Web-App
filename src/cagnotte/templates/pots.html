@@ -1,0 +1,54 @@
+<!-- src/cagnotte/templates/pots.html -->
+{% extends "base.html" %}
+{% block title %}Liste des cagnottes{% endblock %}
+
+{% block content %}
+
+<div class="box">
+    <div class="actions">
+        <h2>Creer une nouvelle cagnotte</h2>
+        {% if is_admin %}
+            <form method="get" action="{{ url_for('web_init_db') }}">
+                <button class="secondary" type="submit">Initialiser la base</button>
+            </form>
+        {% endif %}
+    </div>
+
+    {% if is_admin %}
+        <form method="post" action="{{ url_for('pots_create') }}">
+            <label for="pot-name">Nom</label>
+            <input id="pot-name" name="name" placeholder="Nom de la cagnotte" required>
+            <button type="submit">Creer</button>
+        </form>
+    {% else %}
+        <p class="muted">Le role <code>user</code> peut consulter et gerer les depenses, mais ne peut pas creer ou supprimer de cagnotte.</p>
+    {% endif %}
+</div>
+
+<div class="box">
+    <h2>Cagnottes existantes</h2>
+
+    {% if not items %}
+        <p>Aucune cagnotte enregistree.</p>
+    {% else %}
+        <ul>
+        {% for pid, name in items %}
+            <li>
+                <a href="{{ url_for('pot_detail', money_pot_id=pid) }}">
+                    {{ name }}
+                </a>
+
+                {% if is_admin %}
+                    <form method="post"
+                          action="{{ url_for('pots_delete', money_pot_id=pid) }}"
+                          class="inline-form">
+                        <button class="secondary" type="submit">Supprimer</button>
+                    </form>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+
+{% endblock %}

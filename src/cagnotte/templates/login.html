@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Connexion{% endblock %}
+
+{% block content %}
+<div class="box">
+    <h2>Connexion</h2>
+    <p>Comptes de demonstration : <code>admin/admin</code> et <code>user/user</code>.</p>
+    <p>API JSON disponible via <code>POST /api/tokens</code>, puis <code>Authorization: Bearer &lt;token&gt;</code>.</p>
+
+    <form method="post" action="{{ url_for('login', next=request.args.get('next')) }}">
+        <label for="username">Identifiant</label>
+        <input id="username" name="username" placeholder="admin" required>
+
+        <label for="password">Mot de passe</label>
+        <input id="password" name="password" type="password" required>
+
+        <button type="submit">Se connecter</button>
+    </form>
+</div>
+{% endblock %}
