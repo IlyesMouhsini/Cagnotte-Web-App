@@ -1,0 +1,68 @@
+<!-- src/cagnotte/templates/pot_detail.html -->
+{% extends "base.html" %}
+{% block title %}{{ mp.name }}{% endblock %}
+
+{% block content %}
+
+<p><a href="{{ url_for('pots') }}">Retour aux cagnottes</a></p>
+
+<div class="box">
+    <h2>Depenses</h2>
+
+    {% if not mp.expenses %}
+        <p>Aucune depense enregistree.</p>
+    {% else %}
+        <ul>
+        {% for e in mp.expenses %}
+            <li>
+                {{ e.paid_at }}
+                <strong>{{ e.paid_by }}</strong> :
+                {{ e.amount }} EUR
+
+                <form method="post"
+                      action="{{ url_for('expense_delete', money_pot_id=money_pot_id) }}"
+                      class="inline-form">
+                    <input type="hidden" name="paid_by" value="{{ e.paid_by }}">
+                    <button class="secondary" type="submit">Supprimer</button>
+                </form>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+
+<div class="box">
+    <h3>Ajouter une depense</h3>
+
+    <form method="post"
+          action="{{ url_for('expense_add', money_pot_id=money_pot_id) }}">
+        <label for="paid-by">Participant</label>
+        <input id="paid-by" name="paid_by" placeholder="Nom du participant" required>
+        <label for="amount">Montant</label>
+        <input id="amount" name="amount" placeholder="Montant (ex: 10.00)" required>
+        <label for="paid-at">Date</label>
+        <input id="paid-at" name="paid_at" placeholder="Date (facultative)">
+        <button type="submit">Ajouter</button>
+    </form>
+</div>
+
+<div class="box">
+    <h2>Qui doit a qui ?</h2>
+
+    {% if not txs %}
+        <p>Tout le monde est equilibre.</p>
+    {% else %}
+        <ul>
+        {% for t in txs %}
+            <li>
+                <strong>{{ t.debtor }}</strong>
+                doit {{ t.amount }} EUR
+                a
+                <strong>{{ t.creditor }}</strong>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+
+{% endblock %}

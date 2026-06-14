@@ -1,0 +1,116 @@
+2026-04-12 22:50:24,734 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-04-12 22:50:24,754 WARNING werkzeug  * Debugger is active!
+2026-04-12 22:50:24,758 INFO werkzeug  * Debugger PIN: 127-782-900
+2026-04-12 22:50:37,038 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-04-12 22:50:37,066 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 22:50:37,066 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-04-12 22:50:37,068 INFO werkzeug  * Restarting with stat
+2026-04-12 22:50:37,856 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-04-12 22:50:37,876 WARNING werkzeug  * Debugger is active!
+2026-04-12 22:50:37,879 INFO werkzeug  * Debugger PIN: 127-782-900
+2026-04-12 22:50:37,926 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:50:37] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:50:41,703 INFO cagnotte.web expense deleted by user=admin pot_id=2 participant=Rayan
+2026-04-12 22:50:41,703 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:50:41] "[32mPOST /pots/2/expense/delete HTTP/1.1[0m" 302 -
+2026-04-12 22:50:41,709 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:50:41] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:50:42,529 INFO cagnotte.web expense deleted by user=admin pot_id=2 participant=Ilyes
+2026-04-12 22:50:42,529 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:50:42] "[32mPOST /pots/2/expense/delete HTTP/1.1[0m" 302 -
+2026-04-12 22:50:42,535 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:50:42] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:51:34,653 INFO werkzeug  * Detected change in 'C:\\Users\\Ilyes\\Downloads\\Archi Log\\cagnotte v2\\src\\cagnotte\\web.py', reloading
+2026-04-12 22:51:34,702 INFO werkzeug  * Restarting with stat
+2026-04-12 22:51:35,518 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-04-12 22:51:35,537 WARNING werkzeug  * Debugger is active!
+2026-04-12 22:51:35,540 INFO werkzeug  * Debugger PIN: 127-782-900
+2026-04-12 22:54:22,991 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-04-12 22:54:23,021 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 22:54:23,021 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-04-12 22:54:23,023 INFO werkzeug  * Restarting with stat
+2026-04-12 22:54:23,816 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-04-12 22:54:23,837 WARNING werkzeug  * Debugger is active!
+2026-04-12 22:54:23,841 INFO werkzeug  * Debugger PIN: 127-782-900
+2026-04-12 22:54:39,351 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:54:39] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-12 22:54:39,366 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:54:39] "GET /pots HTTP/1.1" 200 -
+2026-04-12 22:54:42,460 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:54:42] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:54:50,236 INFO cagnotte.web expense added by user=admin pot_id=2 participant=Ilyes amount=50
+2026-04-12 22:54:50,237 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:54:50] "[32mPOST /pots/2/expense HTTP/1.1[0m" 302 -
+2026-04-12 22:54:50,243 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:54:50] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:55:17,522 INFO cagnotte.web expense added by user=admin pot_id=2 participant=Rayan amount=150
+2026-04-12 22:55:17,523 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:55:17] "[32mPOST /pots/2/expense HTTP/1.1[0m" 302 -
+2026-04-12 22:55:17,528 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:55:17] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:55:24,681 INFO cagnotte.web expense added by user=admin pot_id=2 participant=Enzo amount=60
+2026-04-12 22:55:24,681 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:55:24] "[32mPOST /pots/2/expense HTTP/1.1[0m" 302 -
+2026-04-12 22:55:24,686 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:55:24] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:55:28,573 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:55:28] "[32mPOST /pots/2/expense HTTP/1.1[0m" 302 -
+2026-04-12 22:55:28,577 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:55:28] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:57:19,995 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:57:19] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:58:18,746 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:58:18] "GET /pots HTTP/1.1" 200 -
+2026-04-12 22:58:21,056 INFO cagnotte.web db initialized by user=admin
+2026-04-12 22:58:21,056 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:58:21] "[32mGET /init-db HTTP/1.1[0m" 302 -
+2026-04-12 22:58:21,061 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:58:21] "GET /pots HTTP/1.1" 200 -
+2026-04-12 22:58:23,118 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:58:23] "GET /pots/2 HTTP/1.1" 200 -
+2026-04-12 22:58:24,329 INFO werkzeug 127.0.0.1 - - [12/Apr/2026 22:58:24] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:42:20,133 INFO cagnotte.web Système de log initialisé dans archilog.log
+2026-06-14 10:42:20,153 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-14 10:42:20,153 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-06-14 10:42:28,430 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:42:28] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-14 10:42:28,455 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:42:28] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:42:37,245 INFO cagnotte.web logout user=admin
+2026-06-14 10:42:37,246 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:42:37] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2026-06-14 10:42:37,250 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:42:37] "GET /login HTTP/1.1" 200 -
+2026-06-14 10:43:05,270 INFO cagnotte.web login success user=admin role=admin
+2026-06-14 10:43:05,270 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:43:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-14 10:43:05,274 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:43:05] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:43:09,719 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:43:09] "GET /pots/2 HTTP/1.1" 200 -
+2026-06-14 10:43:31,780 INFO cagnotte.web logout user=admin
+2026-06-14 10:43:31,781 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:43:31] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2026-06-14 10:43:31,783 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:43:31] "GET /login HTTP/1.1" 200 -
+2026-06-14 10:43:39,613 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:43:39] "GET /login HTTP/1.1" 200 -
+2026-06-14 10:44:50,031 INFO cagnotte.web login success user=admin role=admin
+2026-06-14 10:44:50,032 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:44:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-14 10:44:50,035 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:44:50] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:44:59,210 INFO cagnotte.web db initialized by user=admin
+2026-06-14 10:44:59,211 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:44:59] "[32mGET /init-db HTTP/1.1[0m" 302 -
+2026-06-14 10:44:59,213 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:44:59] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:45:22,895 INFO cagnotte.web money pot created by user=admin name=cadeau
+2026-06-14 10:45:22,895 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:22] "[32mPOST /pots HTTP/1.1[0m" 302 -
+2026-06-14 10:45:22,899 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:22] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:45:25,646 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:25] "GET /pots/3 HTTP/1.1" 200 -
+2026-06-14 10:45:38,101 INFO cagnotte.web expense added by user=admin pot_id=3 participant=Ilyes amount=10
+2026-06-14 10:45:38,101 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:38] "[32mPOST /pots/3/expense HTTP/1.1[0m" 302 -
+2026-06-14 10:45:38,104 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:38] "GET /pots/3 HTTP/1.1" 200 -
+2026-06-14 10:45:52,464 INFO cagnotte.web expense added by user=admin pot_id=3 participant=Enzo amount=50
+2026-06-14 10:45:52,464 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:52] "[32mPOST /pots/3/expense HTTP/1.1[0m" 302 -
+2026-06-14 10:45:52,467 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:45:52] "GET /pots/3 HTTP/1.1" 200 -
+2026-06-14 10:46:09,684 INFO cagnotte.web expense added by user=admin pot_id=3 participant=Rayan amount=150
+2026-06-14 10:46:09,685 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:46:09] "[32mPOST /pots/3/expense HTTP/1.1[0m" 302 -
+2026-06-14 10:46:09,688 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:46:09] "GET /pots/3 HTTP/1.1" 200 -
+2026-06-14 10:46:38,848 INFO cagnotte.web expense added by user=admin pot_id=3 participant=Imran amount=254
+2026-06-14 10:46:38,849 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:46:38] "[32mPOST /pots/3/expense HTTP/1.1[0m" 302 -
+2026-06-14 10:46:38,852 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:46:38] "GET /pots/3 HTTP/1.1" 200 -
+2026-06-14 10:46:59,754 INFO cagnotte.web expense added by user=admin pot_id=3 participant=Marwan amount=500
+2026-06-14 10:46:59,755 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:46:59] "[32mPOST /pots/3/expense HTTP/1.1[0m" 302 -
+2026-06-14 10:46:59,758 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:46:59] "GET /pots/3 HTTP/1.1" 200 -
+2026-06-14 10:47:11,270 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:11] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:47:15,381 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:15] "GET /pots/2 HTTP/1.1" 200 -
+2026-06-14 10:47:18,979 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:18] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:47:22,782 INFO cagnotte.web money pot deleted by user=admin pot_id=3
+2026-06-14 10:47:22,782 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:22] "[32mPOST /pots/3/delete HTTP/1.1[0m" 302 -
+2026-06-14 10:47:22,785 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:22] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:47:31,918 INFO cagnotte.web logout user=admin
+2026-06-14 10:47:31,919 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:31] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2026-06-14 10:47:31,921 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:31] "GET /login HTTP/1.1" 200 -
+2026-06-14 10:47:38,433 INFO cagnotte.web login success user=user role=user
+2026-06-14 10:47:38,434 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-14 10:47:38,437 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:38] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:47:42,136 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:42] "GET /pots/2 HTTP/1.1" 200 -
+2026-06-14 10:47:57,348 INFO cagnotte.web expense added by user=user pot_id=2 participant=Loic amount=15
+2026-06-14 10:47:57,348 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:57] "[32mPOST /pots/2/expense HTTP/1.1[0m" 302 -
+2026-06-14 10:47:57,352 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:47:57] "GET /pots/2 HTTP/1.1" 200 -
+2026-06-14 10:48:03,086 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:48:03] "GET /pots HTTP/1.1" 200 -
+2026-06-14 10:48:06,968 INFO cagnotte.web logout user=user
+2026-06-14 10:48:06,969 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:48:06] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2026-06-14 10:48:06,971 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:48:06] "GET /login HTTP/1.1" 200 -
+2026-06-14 10:48:10,425 WARNING cagnotte.web login failed user=azeaf
+2026-06-14 10:48:10,426 INFO werkzeug 127.0.0.1 - - [14/Jun/2026 10:48:10] "POST /login HTTP/1.1" 200 -

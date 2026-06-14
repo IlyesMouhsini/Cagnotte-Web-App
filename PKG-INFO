@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: cagnotte
+Version: 0.1.0
+Summary: Cagnotte / partage des dépenses (CLI + Web) - architecture n-tier
+Requires-Python: >=3.11
+Requires-Dist: click>=8.1
+Requires-Dist: flask-httpauth>=4.8
+Requires-Dist: flask>=3.0
+Requires-Dist: granian>=2.7.3
+Requires-Dist: spectree>=2.0
+Requires-Dist: sqlalchemy>=2.0
+Description-Content-Type: text/markdown
+
+# cagnotte
+
+A simple project for educational purpose.
+
+```bash
+$ uv sync
+$ uv run cagnotte
+Usage: cagnotte [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  init-db
+  create
+  get-all
+  delete
+  add-expense
+  remove-expense
+  balance
