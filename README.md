@@ -1,4 +1,4 @@
-# SAÉ Architecture Logicielle – Application de gestion de partages de dépenses (Cagnotte)
+# Projet Architecture Logicielle – Application de gestion de partages de dépenses (Cagnotte)
 
 Ce projet a été réalisé dans le cadre du cours d'Architecture Logicielle du BUT Informatique.  
 Il consiste à concevoir et déployer une application de type "Cagnotte" permettant la gestion et l'équilibrage des dépenses entre plusieurs participants.
