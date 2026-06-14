@@ -73,7 +73,7 @@ Sous-dossiers et fichiers principaux :
 
 ## Branche du projet
 
-Le code principal du projet se trouve sur la branche `master`.
+Le code principal du projet se trouve sur la branche `main`.
 
 ---
 
